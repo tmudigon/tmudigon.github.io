@@ -38,7 +38,7 @@ header {
   position: sticky;
   top: 0;
   background-color: #e8b3ac;
-  color: black;
+  color: #36454f;
   z-index: 100;
 }
 
@@ -63,13 +63,13 @@ nav .main-menu li a {
   padding: 10px;
   text-decoration: none;
   text-transform: uppercase;
-  color: black;
+  color: #36454f;
   font-size: 1 rem;
   transition: 0.2s ease;
 }
 
 nav .main-menu li a:hover {
-  background: #d99e8c;
+  color: #1e74a5;
 }
 
 nav li:not(:last-child) {
@@ -99,19 +99,19 @@ nav .logo a {
   text-decoration: none;
 }
 
-nav .logo a:hover {
-  background: #d99e8c;
+nav .logo a:hover h2 {
+  color: #1e74a5;
 }
 
 nav .logo h2 {
-  color: black;
+  color: #36454f;
   font-family: "Kaushan Script", cursive;
   font-size: 1.6rem;
 }
 
 nav .material-symbols-outlined {
   font-variation-settings: "FILL" 100, "wght" 600, "GRAD" 0, "opsz" 48;
-  color: black;
+  color: #36454f;
   font-size: 30px;
   cursor: pointer;
   transition: color 0.3s ease, font-size 0.3s ease;
@@ -119,7 +119,7 @@ nav .material-symbols-outlined {
 
 nav .material-symbols-outlined:hover {
   color: #1e74a5;
-  font-size: 32px;
+  font-size: 30px;
 }
 
 /* Intro section styles with flexbox */
@@ -317,6 +317,10 @@ nav .material-symbols-outlined:hover {
   text-decoration: none;
 }
 
+.grizzly-link a:hover p {
+  color: #444c5f; /* Replace #desiredHoverColor with the color you want */
+}
+
 .video-container {
   position: relative;
   width: 100%;
@@ -483,7 +487,7 @@ footer {
   position: sticky;
   bottom: 0;
   background-color: #e8b3ac;
-  color: black;
+  color: #36454f;
   text-align: center;
   padding: 10px 20px;
   height: 200px;
@@ -494,12 +498,16 @@ footer {
 .button {
   padding: 10px 20px;
   background-color: #e8b3ac;
-  color: black;
+  color: #36454f;
   text-decoration: none;
   border-radius: 5px;
   max-width: 160px;
   cursor: pointer;
   min-width: 100px;
+}
+
+.button:hover {
+  color: #1e74a5;
 }
 
 .material-symbols-outlined {
